@@ -61,7 +61,7 @@ submitButton.addEventListener('click', (event) => {
 
   //get user data
   axios({
-    url: `https://activity-graph.herokuapp.com/data?username=${username}`,
+    url: `https://magic-github-activity-graph.herokuapp.com/data?username=${username}`,
     method: 'GET',
   })
     .then((contributionData) => {
