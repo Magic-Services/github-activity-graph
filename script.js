@@ -200,13 +200,13 @@ point();
 
 document.querySelector('.copy').addEventListener('click', copyText);
 function copyText() {
-  var copyText = `[![Ashutosh's github activity graph](https://activity-graph.herokuapp.com/graph?username=${
+  var copyText = `[![MagicLikes's GitHub activity graph](https://magic-github-activity-graph.herokuapp.com?username=${
     valueToCopy.username
   }&bg_color=${valueToCopy.bgColor.slice(1)}&color=${valueToCopy.color.slice(
     1
   )}&line=${valueToCopy.line.slice(1)}&point=${valueToCopy.point.slice(
     1
-  )}&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)`;
+  )}&area=true&hide_border=true)](https://github.com/Magic-Services/github-activity-graph)`;
   navigator.clipboard.writeText(copyText);
   alert('The copied text is: ' + copyText);
 }
