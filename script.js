@@ -200,7 +200,7 @@ point();
 
 document.querySelector('.copy').addEventListener('click', copyText);
 function copyText() {
-  var copyText = `[![MagicLikes's GitHub activity graph](https://magic-github-activity-graph.herokuapp.com?username=${
+  var copyText = `[![MagicLikes's GitHub activity graph](https://magic-github-activity-graph.herokuapp.com/graph?username=${
     valueToCopy.username
   }&bg_color=${valueToCopy.bgColor.slice(1)}&color=${valueToCopy.color.slice(
     1
